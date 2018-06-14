@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 #define ID_LEN 9
-#define ELEM_NUM 22
-
+//#define ELEM_NUM 22
+#define ELEM_NUM 8
 
 void convP(char data[],int value[]){
 	int i,j;
