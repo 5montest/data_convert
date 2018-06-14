@@ -8,7 +8,7 @@ void convP(char data[],int value[]){
 	int i,j;
 	j = ID_LEN;
 	for(i = 0;i < ELEM_NUM;i++){
-        value[i] = (((data[j]-0x30)&0x0f)<<12) + (((data[j+1]-0x30)&0x3f)<<6) + ((data[j+2]-0x30)&0x3f);
+        	value[i] = (((data[j]-0x30)&0x0f)<<12) + (((data[j+1]-0x30)&0x3f)<<6) + ((data[j+2]-0x30)&0x3f);
 		j = j + 3;
 	}
 }
